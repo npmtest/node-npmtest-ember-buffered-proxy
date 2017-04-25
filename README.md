@@ -1,4 +1,7 @@
-# test coverage for  [ember-buffered-proxy (v0.7.0)](https://github.com/yapplabs/ember-buffered-proxy#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-buffered-proxy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-buffered-proxy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-buffered-proxy.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-buffered-proxy)
+# npmtest-ember-buffered-proxy
+
+#### basic test coverage for  [ember-buffered-proxy (v0.7.0)](https://github.com/yapplabs/ember-buffered-proxy#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-buffered-proxy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-buffered-proxy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-buffered-proxy.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-buffered-proxy)
+
 #### An Ember Object Proxy with change buffering
 
 [![NPM](https://nodei.co/npm/ember-buffered-proxy.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-buffered-proxy)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-buffered-proxy/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-buffered-proxy/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-buffered-proxy/build/coverage.html/index.html)
 
@@ -118,7 +121,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.7.0"
+    "version": "0.7.0",
+    "bin": {}
 }
 ```
 
